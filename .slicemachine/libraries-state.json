@@ -1,0 +1,105 @@
+{
+  "slices": {
+    "components": {
+      "content_page_slice": {
+        "library": "slices",
+        "id": "content_page_slice",
+        "name": "ContentPageSlice",
+        "description": "ContentPageSlice",
+        "model": {
+          "id": "content_page_slice",
+          "type": "SharedSlice",
+          "name": "ContentPageSlice",
+          "description": "ContentPageSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContentPageSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "IsTrue": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Is True",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "content_page_slice",
+            "items": [
+              {
+                "IsTrue": false
+              },
+              {
+                "IsTrue": true
+              },
+              {
+                "IsTrue": true
+              },
+              {
+                "IsTrue": true
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Deploy back-end partnerships",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation cupidatat veniam excepteur in. Occaecat incididunt aute quis esse quis aliqua officia occaecat sit et amet aute officia ad voluptate.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "D:\\Code\\JonDJones.Prismic.StarterKit\\jondjonesprismicstarterkit\\.slicemachine\\assets\\slices\\ContentPageSlice\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
+      }
+    }
+  }
+}
